@@ -89,7 +89,20 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
                     </div>
                 </div>
             ) : (
-                ''
+                <div className="py-8">
+                    <h1 className='
+                text-white
+                text-2xl
+                text-center
+                mb-4
+                font-bold'>
+                        Bienvenue sur Y
+                    </h1>
+                    <div className="flex flex-row items-center justify-center gap-4">
+                        <Button label='Connexion' onClick={loginModal.onOpen} />
+                        <Button label="Inscription" onClick={registerModal.onOpen} />
+                    </div>
+                </div>
             )}
         </div>
     )
