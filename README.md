@@ -1,4 +1,4 @@
-<b>Y est un projet Twitter Clone (X)</b> <br>
+#  Y est un projet Twitter Clone<br>
 FullStack avec NextJS, Next-Auth, Prisma, MongoDB & Tailwind
 
 ![alt text](https://i.ibb.co/HYDYs9J/twitter.png)
