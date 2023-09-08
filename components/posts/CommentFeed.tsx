@@ -9,7 +9,7 @@ const CommentFeed: React.FC<CommentFeedProps> = ({ comments = [] }) => {
     return (
         <>
             {
-                comments.map((comment) => (
+                comments.map((comment: Record<string, any>) => (
                     <CommentItem key={comment.id} data={comment} />
                 ))}
         </>
