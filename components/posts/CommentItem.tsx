@@ -1,5 +1,5 @@
-import { formatDistanceToNowStrict } from 'date-fns';
 import { fr } from 'date-fns/locale';
+import { formatDistanceToNowStrict } from 'date-fns';
 import { useRouter } from 'next/router'
 import React, { useCallback, useMemo } from 'react'
 import Avatar from '../Avatar';
