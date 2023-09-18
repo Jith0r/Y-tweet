@@ -1,4 +1,5 @@
 import useCurrentUser from '@/hooks/useCurrentUser';
+import { fr } from 'date-fns/locale';
 import useLike from '@/hooks/useLike';
 import useLoginModal from '@/hooks/useLoginModal';
 import { formatDistanceToNowStrict } from 'date-fns';
@@ -47,7 +48,7 @@ const PostItem: React.FC<PostItemProps> = ({ data = {}, userId }) => {
             return null;
         }
 
-        return formatDistanceToNowStrict(new Date(data.createdAt));
+        return formatDistanceToNowStrict(new Date(data.createdAt), { locale: fr });
 
     }, [data?.createdAt]);
 
