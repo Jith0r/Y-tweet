@@ -1,7 +1,7 @@
 #  Y est un projet Twitter Clone<br>
 FullStack avec NextJS, Next-Auth, Prisma, MongoDB & Tailwind
 
-![alt text](https://i.ibb.co/HYDYs9J/twitter.png)
+![alt text](https://i.ibb.co/TkqmyHh/twitter.png)
 
 
 > <b>Les fonctionnalités :</b>
@@ -14,5 +14,3 @@ Responsive avec TailWind<br>
 Fonctionnalité Suivi/Ne plus suivre (Follow/Unfollow)<br>
 Commentaires / Réponses<br>
 Fontionnalité Like<br>
-
-Lien : https://unkn0w-ind-y.vercel.app/
