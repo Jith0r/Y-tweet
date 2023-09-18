@@ -24,7 +24,7 @@ const CommentItem: React.FC<CommentItemProps> = ({ data }) => {
             return null;
         }
 
-        return formatDistanceToNowStrict(new Date(data.createdAt), , { locale: fr });
+        return formatDistanceToNowStrict(new Date(data.createdAt), { locale: fr });
 
     }, [data?.createdAt])
 
