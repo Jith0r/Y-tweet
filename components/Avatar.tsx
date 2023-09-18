@@ -30,6 +30,7 @@ const Avatar: React.FC<AvatarProps> = ({ userId, isLarge, hasBorder }) => {
         ${isLarge ? 'w-32' : 'w-12'}
         rounded-full
         hover:opacity-90
+        transition
         cursor-pointer
         relative
         `}>
