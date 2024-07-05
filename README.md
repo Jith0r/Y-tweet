@@ -1,8 +1,6 @@
 #  Y est un projet Twitter Clone<br>
 FullStack avec NextJS, Next-Auth, Prisma, MongoDB & Tailwind
 
-![alt text](https://i.ibb.co/TkqmyHh/twitter.png)
-
 
 > <b>Les fonctionnalités </b>
 
